@@ -1,0 +1,19 @@
+{
+  "name": "gb-context",
+  "version": "1.0.0",
+  "description": "Devuelve variables de contextos apartir de un request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garbarino-com/gb-context.git"
+  },
+  "author": "Alejandro Rodriguez @Garbarino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garbarino-com/gb-context/issues"
+  },
+  "homepage": "https://github.com/garbarino-com/gb-context#readme"
+}
