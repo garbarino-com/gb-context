@@ -10,7 +10,7 @@ Variables:
 
 ## instalación
 
-    npm i -S gb-context
+    npm i -S @garbarino/gb-context
 
 ## Uso
 
