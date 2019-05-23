@@ -14,5 +14,5 @@ Variables:
 
 ## Uso
 
-    var { xBrand, folder, xSubdomain } = require('gb-context');
+    var { xBrand, folder, xSubdomain } = require('gb-context')(req);
 
