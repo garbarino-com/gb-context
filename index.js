@@ -1,13 +1,9 @@
 /**
- * devuelvo un objeto con xBrand y folder segun request
+ * Recibe los headers del request y devuelve un objeto con
+ * xBrand, xSubdomain y salesCompany
  */
-module.exports = ({ headers }) => {
-    var xBrand = headers['x-brand'] ? headers['x-brand'].toLowerCase() : 'garbarino';
-    var xSubdomain = headers['x-subdomain'] ? headers['x-subdomain'].toLowerCase() : undefined;
-
-    return {
-        xBrand,
-        xSubdomain,
-        salesCompany: xSubdomain === 'empresas'
-    };
-}
+module.exports = ({ headers: { 'x-brand': xBrand, 'x-subdomain': xSubdomain } }) => ({
+    xBrand: xBrand ? xBrand.toLowerCase() : 'garbarino',
+    xSubdomain: xSubdomain ? xSubdomain.toLowerCase() : undefined,
+    salesCompany: xSubdomain === 'empresas'
+});
