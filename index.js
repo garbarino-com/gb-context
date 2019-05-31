@@ -7,7 +7,6 @@ module.exports = ({ headers }) => {
 
     return {
         xBrand,
-        folder: xBrand == 'compumundo' ? xBrand : 'garba',
         xSubdomain,
         salesCompany: xSubdomain === 'empresas'
     };

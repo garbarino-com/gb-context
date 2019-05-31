@@ -1,6 +1,6 @@
 {
   "name": "@garbarino/gb-context",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Devuelve variables de contextos apartir de un request",
   "main": "index.js",
   "repository": {
